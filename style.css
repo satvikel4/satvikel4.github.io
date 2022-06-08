@@ -18,7 +18,7 @@
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    /* background: crimson; */
+    /* background: #c5c6ca; */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -57,7 +57,8 @@
 /* home section styling */
 .home{
     display: flex;
-    background: black; /* url("images/banner.jpg") no repeat center */
+    background: url("images/background.jpg") no-repeat center;
+    background-size: cover;
     height: 100vh;
     color: white;
     min-height: 500px;
