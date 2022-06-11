@@ -186,6 +186,8 @@ section{
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .about .about-content .right{
@@ -193,7 +195,7 @@ section{
 }
 
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 25px;    
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -307,6 +309,9 @@ section{
         flex: 100%;
     }
 }
+
+/* services section styling */
+
 
 @media (max-width: 690px) {
     .max-width{
