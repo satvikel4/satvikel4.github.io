@@ -21,7 +21,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#team">Teams</a></li>
+          <li><a href="#team">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="menu-btn">
@@ -230,26 +230,27 @@
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    // JavaScript to handle smooth scrolling
-    $(document).ready(function () {
-      $('a[href^="#"]').on('click', function (event) {
-        event.preventDefault();
-
-        var target = $(this.getAttribute('href'));
-        if (target.length) {
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
+    <script>
+      // JavaScript to handle smooth scrolling
+      $(document).ready(function () {
+        $('a[href^="#"]').on('click', function (event) {
+          event.preventDefault();
+    
+          var target = $(this.getAttribute('href'));
+          var offset = 100; // Adjust this value to set the offset from the top of the section
+          if (target.length) {
+            $('html, body').stop().animate({
+              scrollTop: target.offset().top - offset // Apply the offset
+            }, 1000);
+          }
+        });
+    
+        // JavaScript to handle navbar toggle
+        $('.menu-btn').click(function () {
+          $('.navbar .menu').toggleClass('active');
+          $('.menu-btn i').toggleClass('active');
+        });
       });
-
-      // JavaScript to handle navbar toggle
-      $('.menu-btn').click(function () {
-        $('.navbar .menu').toggleClass('active');
-        $('.menu-btn i').toggleClass('active');
-      });
-    });
-  </script>
+    </script>
 </body>
 </html>
