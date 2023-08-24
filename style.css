@@ -437,6 +437,21 @@ section .title::after{
     border-color: white;
 }
 
+/* Override the default link color for the "RideShare" link */
+.projects .projects-content .card .text a {
+    color: white;
+}
+
+/* Specify the link color for the visited state */
+.projects .projects-content .card .text a:visited {
+    color: white;
+}
+
+/* Add a hover effect for the link */
+.projects .projects-content .card .text a:hover {
+    color: white;
+}
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
