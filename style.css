@@ -371,23 +371,23 @@ section .title::after{
 }
 
 .skills .skills-content .right .html::before{
-    width: 90%;
+    width: 100%;
 }
 
 .skills .skills-content .right .css::before{
-    width: 60%;
+    width: 100%;
 }
 
 .skills .skills-content .right .js::before{
-    width: 80%;
+    width: 100%;
 }
 
 .skills .skills-content .right .php::before{
-    width: 50%;
+    width: 100%;
 }
 
 .skills .skills-content .right .mysql::before{
-    width: 70%;
+    width: 100%;
 }
 
 /* projects section styling */
