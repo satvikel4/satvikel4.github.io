@@ -296,7 +296,7 @@ section .title::after{
 .projects .projects-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 0 10px 0;
 }
 
 /* skills section styling */
@@ -422,7 +422,7 @@ section .title::after{
 .projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 0 10px 0;
 }
 
 .projects .carousel .card img{
@@ -435,6 +435,17 @@ section .title::after{
 
 .projects .carousel .card:hover img{
     border-color: white;
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 20px;
+    width: calc(33.33% - 10px);
 }
 
 /* Override the default link color for the "RideShare" link */
