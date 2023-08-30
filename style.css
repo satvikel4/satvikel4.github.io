@@ -182,11 +182,6 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* about section styling */
-.about .title::after{
-    content: "Who I Am"
-}
-
 .about .about-content .left{
     width: 45%;
 }
@@ -251,7 +246,6 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     background: #111;
-    content: "What I Provide";
 }
 
 .services .serv-content .card,
@@ -390,11 +384,6 @@ section .title::after{
     width: 100%;
 }
 
-/* projects section styling */
-.projects .title::after{
-    content: "Who With Me";
-}
-
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -486,11 +475,6 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
-
-/* contact section styling */
-.contact .title::after{
-    content: "Get In Touch"
 }
 
 .contact .contact-content .column{
@@ -725,3 +709,9 @@ section .title::after{
         font-size: 27px;
     }
 }
+
+/* Miscellaneous */
+.text a {
+    color: white; /* Change this to your desired link color */
+  }
+  
