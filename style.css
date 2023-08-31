@@ -135,12 +135,12 @@ section{
     padding: 100px 0;
 }
  
-.about, .services, .skills, .contact, .projects{
+.about, .research, .skills, .contact, .projects{
     font-family: 'Poppins', sans-serif;
 }
 
 .about .about-content,
-.services .serv-content,
+.research .serv-content,
 .skills .skills-content,
 .contact .contact-content,
 .projects .projects-content{
@@ -232,23 +232,23 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-.services, .projects{
+/* research section styling */
+.research, .projects{
     color: white;
     background: #111;
 }
 
-.services .title::before,
+.research .title::before,
 .projects .title::before{
     background: white;
 }
 
-.services .title::after,
+.research .title::after,
 .projects .title::after{
     background: #111;
 }
 
-.services .serv-content .card,
+.research .serv-content .card,
 .projects .projects-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -259,34 +259,34 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover,
+.research .serv-content .card:hover,
 .projects .projects-content .card:hover{
     background: crimson;
 }
 
-.services .serv-content .card .box,
+.research .serv-content .card .box,
 .projects .projects-content .card .box{
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover .box,
+.research .serv-content .card:hover .box,
 .projects .projects-content .card:hover .box{
     transform: scale(1.05);
 }
 
-.services .serv-content .card i,
+.research .serv-content .card i,
 .projets .projects-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
 
-.services .serv-content .card:hover i,
+.research .serv-content .card:hover i,
 .projects .projects-content .card:hover i{
     color: white;
 }
 
-.services .serv-content .card .text,
+.research .serv-content .card .text,
 .projects .projects-content .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -664,7 +664,7 @@ section .title::after{
         flex: 100%;
     }
 
-    .services .serv-content .card,
+    .research .serv-content .card,
     .projects .projects-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -694,7 +694,7 @@ section .title::after{
         font-size: 20px;
     }
 
-    .services .serv-content .card,
+    .research .serv-content .card,
     .projects .projects-content .card{
         width: 100%;
     }
