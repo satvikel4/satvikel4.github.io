@@ -294,11 +294,6 @@ section .title::after{
 }
 
 /* skills section styling */
-
-.skills .title::after{
-    content: "What I Know";
-}
-
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
